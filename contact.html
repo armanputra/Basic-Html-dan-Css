@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Html dan CSS</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="./picture/logo.png" alt="Logo">
+        </div>
+        <ul class="menu">
+            <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="#">EXPERIENCE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+    </div
+    <section class="layout_1">
+        <div class="shape">
+            <div class="left">
+                <img src="./picture/charles-rRWiVQzLm7k-unsplash.jpg" alt="Logo">
+            </div>
+            <div class="right">
+                <form action="#">
+                    <p>Contact Use</p>
+                    <div>
+                        <label for="name"> Full Name : </label><br>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email Address : </label><br>
+                        <input type="text" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone number : </label><br>
+                        <input type="text" id="phone" name="phone" aria-required="true">
+                    </div>
+                    <div>
+                        <label for="country">Select :</label><br>
+                        <select id="country" name="country">
+                            <option value="usa">USA</option>
+                            <option value="canada">Canada</option>
+                            <option value="uk">UK</option>
+                            <option value="australia">Australia</option>
+                        </select><br>
+                    </div>
+                    <div>
+                        <label for="message">Message : </label><br>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+            
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
